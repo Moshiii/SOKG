@@ -1,0 +1,478 @@
+{
+    "allocate": [
+        "reallocate"
+    ],
+    "append": [
+        "put",
+        "add",
+        "insert",
+        "push",
+        "interpolate",
+        "place",
+        "install",
+        "register",
+        "queue",
+        "register",
+        "enqueue"
+    ],
+    "apply": [
+        "reapply",
+        "accept",
+        "re-apply"
+    ],
+    "assert": [],
+    "bind": [
+        "attach",
+        "rebind",
+        "reattach"
+    ],
+    "call": [
+        "invoke",
+        "tell",
+        "indicate",
+        "occur",
+        "perform",
+        "prompt",
+        "notify"
+    ],
+    "cancel": [
+        "deregister",
+        "undo",
+        "deny",
+        "unset",
+        "unschedule",
+        "unregister",
+        "unbind",
+        "uninitialize",
+        "unload",
+        "deselect",
+        "unlock",
+        "unblock"
+    ],
+    "choose": [
+        "select"
+    ],
+    "clear": [
+        "clean",
+        "remove",
+        "empty"
+    ],
+    "close": [
+        "end",
+        "release",
+        "free",
+        "finish",
+        "dismiss",
+        "deactivate",
+        "disable",
+        "turn off"
+    ],
+    "collect": [
+        "recycle",
+        "sample"
+    ],
+    "commit": [
+        "submit"
+    ],
+    "compare": [
+        "return"
+    ],
+    "compile": [],
+    "compute": [
+        "calculate",
+        "determine",
+        "evaluate",
+        "solve",
+        "scale",
+        "measure",
+        "recalculate",
+        "multiply",
+        "count",
+        "figure",
+        "subtract",
+        "increase",
+        "estimate",
+        "return",
+        "increment"
+    ],
+    "confirm": [
+        "ensure",
+        "determine"
+    ],
+    "connect": [
+        "associate",
+        "join",
+        "combine",
+        "concatenate",
+        "merge",
+        "concat",
+        "add",
+        "group"
+    ],
+    "convert": [
+        "change",
+        "transfer",
+        "map",
+        "turn",
+        "transform",
+        "reconvert",
+        "move",
+        "adapt",
+        "translate",
+        "force",
+        "cast",
+        "return"
+    ],
+    "copy": [
+        "clone"
+    ],
+    "create": [
+        "build",
+        "produce",
+        "construct",
+        "generate",
+        "establish",
+        "make",
+        "obtain",
+        "reconstitute",
+        "compose",
+        "instantiate",
+        "implement",
+        "get",
+        "retrieve",
+        "return",
+        "install",
+        "set up"
+    ],
+    "cumulate": [
+        "sum"
+    ],
+    "cut": [],
+    "delay": [
+        "defer",
+        "postpone"
+    ],
+    "delegate": [],
+    "destroy": [
+        "tear"
+    ],
+    "display": [
+        "show",
+        "present",
+        "bring"
+    ],
+    "draw": [
+        "render",
+        "paint",
+        "redraw",
+        "repaint"
+    ],
+    "enter": [],
+    "export": [],
+    "filter": [],
+    "finish": [
+        "complete",
+        "finalize",
+        "complement"
+    ],
+    "flash": [],
+    "flip": [
+        "rotate",
+        "permute",
+        "swap",
+        "transpose",
+        "reverse",
+        "shuffle"
+    ],
+    "format": [
+        "return"
+    ],
+    "handle": [
+        "process"
+    ],
+    "hide": [
+        "collapse"
+    ],
+    "import": [],
+    "inflate": [
+        "extend"
+    ],
+    "initialize": [
+        "reinitialize",
+        "prepare",
+        "refresh",
+        "reset",
+        "initiate",
+        "reposition"
+    ],
+    "intersect": [],
+    "list": [
+        "enumerate"
+    ],
+    "lock": [],
+    "make": [
+        "cause",
+        "instruct"
+    ],
+    "mark": [],
+    "match": [],
+    "move": [
+        "scroll",
+        "offset",
+        "advance"
+    ],
+    "negate": [],
+    "normalize": [],
+    "open": [
+        "turn on"
+    ],
+    "package": [
+        "encode",
+        "marshal",
+        "synthesize",
+        "wrap",
+        "compress",
+        "pack",
+        "compact",
+        "encrypt",
+        "escape"
+    ],
+    "parse": [
+        "resolve",
+        "unwrap",
+        "analyze",
+        "uncompress",
+        "decode",
+        "flatten",
+        "unmarshal"
+    ],
+    "perform": [
+        "execute",
+        "run",
+        "call",
+        "invoke",
+        "enforce",
+        "fire",
+        "trigger",
+        "indicate",
+        "occur"
+    ],
+    "pin": [],
+    "play": [],
+    "provide": [
+        "give",
+        "supply"
+    ],
+    "publish": [],
+    "query": [
+        "find",
+        "locate",
+        "determine",
+        "retrieve",
+        "visit",
+        "look",
+        "search",
+        "discover",
+        "seek",
+        "look up"
+    ],
+    "read": [
+        "load",
+        "reload"
+    ],
+    "redirect": [
+        "jump",
+        "skip",
+        "fling",
+        "go",
+        "navigate"
+    ],
+    "redo": [],
+    "relayout": [
+        "layout",
+        "lay out"
+    ],
+    "remove": [
+        "exclude",
+        "reduce",
+        "delete",
+        "pop",
+        "uninstall",
+        "detach",
+        "decrement",
+        "revoke",
+        "dequeue",
+        "abandon",
+        "discard",
+        "peek"
+    ],
+    "replace": [],
+    "report": [
+        "notify",
+        "tell",
+        "indicate",
+        "prompt"
+    ],
+    "request": [
+        "ask",
+        "give",
+        "allow"
+    ],
+    "respond": [],
+    "restore": [
+        "recover",
+        "resume"
+    ],
+    "return": [
+        "get",
+        "obtain",
+        "fetch",
+        "acquire",
+        "determine",
+        "take",
+        "capture",
+        "retrieve",
+        "describe",
+        "provide",
+        "represent",
+        "reclaim",
+        "receive",
+        "claim",
+        "extract"
+    ],
+    "send": [
+        "pass",
+        "give",
+        "dispatch",
+        "post",
+        "issue",
+        "propagate",
+        "forward",
+        "broadcast",
+        "transmit",
+        "emit",
+        "notify",
+        "signal"
+    ],
+    "set": [
+        "control",
+        "describe",
+        "define",
+        "specify",
+        "tell",
+        "give",
+        "assign",
+        "determine",
+        "indicate",
+        "configure",
+        "schedule",
+        "declare",
+        "reassign",
+        "clamp",
+        "put",
+        "designate"
+    ],
+    "simulate": [],
+    "sort": [],
+    "span": [],
+    "speak": [],
+    "split": [
+        "break",
+        "divide"
+    ],
+    "start": [
+        "wake",
+        "launch",
+        "happen",
+        "begin",
+        "enable",
+        "re-enable"
+    ],
+    "stop": [
+        "quit",
+        "terminate",
+        "interrupt",
+        "end",
+        "crash",
+        "intercept",
+        "abort",
+        "disconnect",
+        "shutdown",
+        "pause",
+        "finalize",
+        "freeze",
+        "block"
+    ],
+    "store": [
+        "save",
+        "dump",
+        "retain",
+        "cache",
+        "stash",
+        "serialize",
+        "deserialize",
+        "persist"
+    ],
+    "synchronize ": [],
+    "test": [
+        "tell",
+        "determine",
+        "check",
+        "retrieve",
+        "ascertain",
+        "return",
+        "control",
+        "indicate",
+        "query",
+        "report",
+        "validate",
+        "get",
+        "invalidate",
+        "verify",
+        "find",
+        "identify",
+        "track",
+        "detect",
+        "decide"
+    ],
+    "toggle": [],
+    "touch": [
+        "press"
+    ],
+    "tune": [],
+    "update": [
+        "modify",
+        "fill",
+        "edit",
+        "change",
+        "rename",
+        "populate",
+        "adjust",
+        "flush",
+        "trim",
+        "adapt",
+        "reconcile",
+        "resize"
+    ],
+    "validate": [
+        "authenticate",
+        "revalidate"
+    ],
+    "visit": [
+        "rescan",
+        "scan",
+        "walk",
+        "iterate",
+        "access"
+    ],
+    "wait": [
+        "await",
+        "sleep"
+    ],
+    "write": [
+        "record",
+        "log",
+        "print",
+        "output"
+    ]
+}
