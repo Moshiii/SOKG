@@ -1,8 +1,10 @@
 {
     "allocate": [
+        "allocate",
         "reallocate"
     ],
     "append": [
+        "append",
         "put",
         "add",
         "insert",
@@ -16,17 +18,22 @@
         "enqueue"
     ],
     "apply": [
+        "apply",
         "reapply",
         "accept",
         "re-apply"
     ],
-    "assert": [],
+    "assert": [
+        "assert"
+    ],
     "bind": [
+        "bind",
         "attach",
         "rebind",
         "reattach"
     ],
     "call": [
+        "call",
         "invoke",
         "tell",
         "indicate",
@@ -36,6 +43,7 @@
         "notify"
     ],
     "cancel": [
+        "cancel",
         "deregister",
         "undo",
         "deny",
@@ -50,14 +58,17 @@
         "unblock"
     ],
     "choose": [
+        "choose",
         "select"
     ],
     "clear": [
+        "clear",
         "clean",
         "remove",
         "empty"
     ],
     "close": [
+        "close",
         "end",
         "release",
         "free",
@@ -68,17 +79,23 @@
         "turn off"
     ],
     "collect": [
+        "collect",
         "recycle",
         "sample"
     ],
     "commit": [
+        "commit",
         "submit"
     ],
     "compare": [
+        "compare",
         "return"
     ],
-    "compile": [],
+    "compile": [
+        "compile"
+    ],
     "compute": [
+        "compute",
         "calculate",
         "determine",
         "evaluate",
@@ -96,10 +113,12 @@
         "increment"
     ],
     "confirm": [
+        "confirm",
         "ensure",
         "determine"
     ],
     "connect": [
+        "connect",
         "associate",
         "join",
         "combine",
@@ -110,6 +129,7 @@
         "group"
     ],
     "convert": [
+        "convert",
         "change",
         "transfer",
         "map",
@@ -124,9 +144,11 @@
         "return"
     ],
     "copy": [
+        "copy",
         "clone"
     ],
     "create": [
+        "create",
         "build",
         "produce",
         "construct",
@@ -145,38 +167,57 @@
         "set up"
     ],
     "cumulate": [
+        "cumulate",
         "sum"
     ],
-    "cut": [],
+    "cut": [
+        "cut"
+    ],
     "delay": [
+        "delay",
         "defer",
         "postpone"
     ],
-    "delegate": [],
+    "delegate": [
+        "delegate"
+    ],
     "destroy": [
+        "destroy",
         "tear"
     ],
     "display": [
+        "display",
         "show",
         "present",
         "bring"
     ],
     "draw": [
+        "draw",
         "render",
         "paint",
         "redraw",
         "repaint"
     ],
-    "enter": [],
-    "export": [],
-    "filter": [],
+    "enter": [
+        "enter"
+    ],
+    "export": [
+        "export"
+    ],
+    "filter": [
+        "filter"
+    ],
     "finish": [
+        "finish",
         "complete",
         "finalize",
         "complement"
     ],
-    "flash": [],
+    "flash": [
+        "flash"
+    ],
     "flip": [
+        "flip",
         "rotate",
         "permute",
         "swap",
@@ -185,19 +226,26 @@
         "shuffle"
     ],
     "format": [
+        "format",
         "return"
     ],
     "handle": [
+        "handle",
         "process"
     ],
     "hide": [
+        "hide",
         "collapse"
     ],
-    "import": [],
+    "import": [
+        "import"
+    ],
     "inflate": [
+        "inflate",
         "extend"
     ],
     "initialize": [
+        "initialize",
         "reinitialize",
         "prepare",
         "refresh",
@@ -205,28 +253,45 @@
         "initiate",
         "reposition"
     ],
-    "intersect": [],
+    "intersect": [
+        "intersect"
+    ],
     "list": [
+        "list",
         "enumerate"
     ],
-    "lock": [],
+    "lock": [
+        "lock"
+    ],
     "make": [
+        "make",
         "cause",
         "instruct"
     ],
-    "mark": [],
-    "match": [],
+    "mark": [
+        "mark"
+    ],
+    "match": [
+        "match"
+    ],
     "move": [
+        "move",
         "scroll",
         "offset",
         "advance"
     ],
-    "negate": [],
-    "normalize": [],
+    "negate": [
+        "negate"
+    ],
+    "normalize": [
+        "normalize"
+    ],
     "open": [
+        "open",
         "turn on"
     ],
     "package": [
+        "package",
         "encode",
         "marshal",
         "synthesize",
@@ -238,6 +303,7 @@
         "escape"
     ],
     "parse": [
+        "parse",
         "resolve",
         "unwrap",
         "analyze",
@@ -247,6 +313,7 @@
         "unmarshal"
     ],
     "perform": [
+        "perform",
         "execute",
         "run",
         "call",
@@ -257,14 +324,22 @@
         "indicate",
         "occur"
     ],
-    "pin": [],
-    "play": [],
+    "pin": [
+        "pin"
+    ],
+    "play": [
+        "play"
+    ],
     "provide": [
+        "provide",
         "give",
         "supply"
     ],
-    "publish": [],
+    "publish": [
+        "publish"
+    ],
     "query": [
+        "query",
         "find",
         "locate",
         "determine",
@@ -277,22 +352,28 @@
         "look up"
     ],
     "read": [
+        "read",
         "load",
         "reload"
     ],
     "redirect": [
+        "redirect",
         "jump",
         "skip",
         "fling",
         "go",
         "navigate"
     ],
-    "redo": [],
+    "redo": [
+        "redo"
+    ],
     "relayout": [
+        "relayout",
         "layout",
         "lay out"
     ],
     "remove": [
+        "remove",
         "exclude",
         "reduce",
         "delete",
@@ -306,24 +387,32 @@
         "discard",
         "peek"
     ],
-    "replace": [],
+    "replace": [
+        "replace"
+    ],
     "report": [
+        "report",
         "notify",
         "tell",
         "indicate",
         "prompt"
     ],
     "request": [
+        "request",
         "ask",
         "give",
         "allow"
     ],
-    "respond": [],
+    "respond": [
+        "respond"
+    ],
     "restore": [
+        "restore",
         "recover",
         "resume"
     ],
     "return": [
+        "return",
         "get",
         "obtain",
         "fetch",
@@ -341,6 +430,7 @@
         "extract"
     ],
     "send": [
+        "send",
         "pass",
         "give",
         "dispatch",
@@ -355,6 +445,7 @@
         "signal"
     ],
     "set": [
+        "set",
         "control",
         "describe",
         "define",
@@ -372,15 +463,25 @@
         "put",
         "designate"
     ],
-    "simulate": [],
-    "sort": [],
-    "span": [],
-    "speak": [],
+    "simulate": [
+        "simulate"
+    ],
+    "sort": [
+        "sort"
+    ],
+    "span": [
+        "span"
+    ],
+    "speak": [
+        "speak"
+    ],
     "split": [
+        "split",
         "break",
         "divide"
     ],
     "start": [
+        "start",
         "wake",
         "launch",
         "happen",
@@ -389,6 +490,7 @@
         "re-enable"
     ],
     "stop": [
+        "stop",
         "quit",
         "terminate",
         "interrupt",
@@ -404,6 +506,7 @@
         "block"
     ],
     "store": [
+        "store",
         "save",
         "dump",
         "retain",
@@ -413,8 +516,11 @@
         "deserialize",
         "persist"
     ],
-    "synchronize ": [],
+    "synchronize ": [
+        "synchronize "
+    ],
     "test": [
+        "test",
         "tell",
         "determine",
         "check",
@@ -435,12 +541,18 @@
         "detect",
         "decide"
     ],
-    "toggle": [],
+    "toggle": [
+        "toggle"
+    ],
     "touch": [
+        "touch",
         "press"
     ],
-    "tune": [],
+    "tune": [
+        "tune"
+    ],
     "update": [
+        "update",
         "modify",
         "fill",
         "edit",
@@ -455,10 +567,12 @@
         "resize"
     ],
     "validate": [
+        "validate",
         "authenticate",
         "revalidate"
     ],
     "visit": [
+        "visit",
         "rescan",
         "scan",
         "walk",
@@ -466,10 +580,12 @@
         "access"
     ],
     "wait": [
+        "wait",
         "await",
         "sleep"
     ],
     "write": [
+        "write",
         "record",
         "log",
         "print",
