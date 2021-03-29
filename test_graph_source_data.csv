@@ -1,0 +1,41 @@
+,pat,entity A,entity B,apis
+0,convert (.*) to (.*),"['binary', 'string', 'value']",['decimal'],{'java.lang.Integer.parseInt'}
+1,remove (.*) from (.*),['newlines'],"['beginning', 'and', 'end', 'of', 'a', 'string', '(Java)']",{'java.lang.String.trim'}
+2,create (.*) with (.*),"['new', 'array']","['length', 'N', 'and', 'fill', 'it', 'by', 'repeating', 'a', 'given', 'array']",{'java.lang.System.arraycopy'}
+3,get (.*) in (.*),"['screen', 'resolution']",['java'],"{'java.awt.Toolkit.getScreenSize', 'java.awt.Toolkit.getScreenResolution'}"
+4,convert (.*) to (.*),['Integer'],['int'],{'java.lang.Integer.intValue'}
+5,get (.*) in (.*),"['system', 'time']","['Java', 'without', 'creating', 'a', 'new', 'Date']","{'java.util.Date.setTime', 'java.lang.System.currentTimeMillis'}"
+6,read (.*) in (.*),"['file', 'into', 'byte[]', 'array']",['Java'],{'java.nio.file.Files.readAllBytes'}
+7,sort (.*) in (.*),"['file', 'names']","['ascending', 'order']","{'java.util.Arrays.sort', 'java.util.Collections.sort'}"
+8,insert (.*) in (.*),['ID'],['JDBC'],"{'java.sql.Statement.RETURN', 'java.sql.Statement.getGeneratedKeys'}"
+9,get (.*) from (.*),"['string', 'value']","['a', 'Java', 'field', 'via', 'reflection']",{'java.lang.reflect.Field.get'}
+10,get (.*) in (.*),"['file', 'size']",['Java'],{'java.io.File.length'}
+11,get (.*) of (.*),"['concrete', 'type']","['a', 'generic', 'interface']","{'java.lang.reflect.ParameterizedType.getActualTypeArguments', 'java.lang.Class.getGenericInterfaces'}"
+12,convert (.*) to (.*),['BigDecimal'],"['Double', 'in', 'Java']",{'java.math.BigDecimal.doubleValue'}
+13,add (.*) in (.*),"['new', 'System', 'Properties']",['java'],{'java.lang.System.setProperty'}
+14,find (.*) in (.*),"['whitespace', 'space']","['a', 'String']",{'java.lang.String.matches'}
+15,change (.*) to (.*),"['current', 'database']",['another'],{'java.sql.Connection.setCatalog'}
+16,list (.*) in (.*),['members'],['Java'],"{'java.util.ListIterator.set', 'java.util.List.listIterator'}"
+17,get (.*) of (.*),['class'],['field'],{'java.lang.reflect.Field.getType'}
+18,run (.*) in (.*),"['linux', 'commands']","['java', 'code']",{'java.lang.Runtime.exec'}
+19,print (.*) in (.*),['array'],"['the', 'log', 'cat', 'android']","{'java.util.Arrays.deepToString', 'java.util.Arrays.toString'}"
+20,change (.*) in (.*),"['default', 'directory']",['Windows'],{'javax.swing.JFileChooser.setCurrentDirectory'}
+21,get (.*) from (.*),['substring'],"['a', 'string', 'till', 'a', 'character', 'c']","{'java.lang.String.indexOf', 'java.lang.String.substring'}"
+22,insert (.*) in (.*),['NULL'],"['mysql', 'especially', 'INT', 'dataType']",{'java.sql.PreparedStatement.setNull'}
+23,read (.*) from (.*),['input'],"['the', 'console', 'using', 'the', 'Scanner', 'class', 'in', 'Java']","{'java.util.Scanner.next', 'java.util.Scanner.nextLine'}"
+24,get (.*) from (.*),"['generic', 'type', 'information']","['getAnnotatedParameterTypes()', 'in', 'Java', '8']","{'java.lang.reflect.Method.getGenericParameterTypes', 'java.lang.reflect.Executable.getAnnotatedParameterTypes'}"
+25,parse (.*) to (.*),['binary'],['long'],{'java.lang.Long.parseLong'}
+26,count (.*) of (.*),['items'],"['a', 'nested', 'list']","{'java.util.stream.Stream.mapToInt', 'java.util.stream.IntStream.sum'}"
+27,append (.*) to (.*),['text'],"['file', 'in', 'Java', '8', 'using', 'specified', 'Charset']",{'java.nio.file.Files.write'}
+28,log (.*) for (.*),['level'],"['inner', 'class', '(in', 'Glassfish)']",{'java.util.logging.Logger.getLogger'}
+29,call (.*) from (.*),"['c++', 'functionality']",['java'],{'java.lang.Runtime.exec'}
+30,convert (.*) to (.*),['util.Date'],"['time.LocalDate', 'correctly', 'for', 'dates', 'before', '1893']",{'java.time.LocalDate.parse'}
+31,make (.*) to (.*),"['multiple', 'line', 'string']","['single', 'line', 'string']",{'java.lang.String.replaceAll'}
+32,get (.*) from (.*),"['key', 'position']","['a', 'HashMap', 'in', 'Java']",{'java.util.Map.keySet'}
+33,replace (.*) with (.*),"['""', '\\', '""']","['""', '\\\\', '""', 'in', 'java']",{'java.lang.String.replaceAll'}
+34,retrieve (.*) from (.*),['milliseconds'],['java.sql.Timestamp'],{'java.sql.Timestamp.getTime'}
+35,write (.*) in (.*),[],[],{'java.sql.Blob.getBinaryStream'}
+36,convert (.*) to (.*),['io.netty.buffer.ByteBuf'],['java.nio.ByteBuffer'],{'java.nio.ByteBuffer.wrap'}
+37,show (.*) in (.*),"['different', 'cards']","['a', 'CardLayout']",{'java.awt.CardLayout.show'}
+38,convert (.*) to (.*),['string'],"['integer', 'in', 'java']","{'java.lang.Integer.parseInt', 'java.math.BigInteger.BigInteger'}"
+39,call (.*) on (.*),['Collections.Shuffle'],"['only', 'part', 'of', 'an', 'array', 'Java']",{'java.util.List.subList'}
